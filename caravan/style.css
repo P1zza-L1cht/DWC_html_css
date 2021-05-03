@@ -230,3 +230,77 @@ footer {
 .footer-text {
   color: #fff;
 }
+
+@media screen and (max-width: 425px) {
+  header,
+  nav,
+  h2,
+  .main-visual,
+  footer {
+    font-family: "HGP行書体", cursive, "Comic Sans MS", serif;
+  }
+  header {
+    width: 100%;
+  }
+
+  .social i {
+    display: none;
+  }
+
+  .nav-list-item {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 5px 0;
+  }
+
+  .main-visual {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .main-visual-content {
+    width: 100%;
+  }
+
+  main {
+    display: unset;
+  }
+
+  .blog {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+
+  .blog-image {
+    width: 45%;
+  }
+
+  .blog-text {
+    padding-left: 15px;
+  }
+
+  .sidebar {
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 50px;
+  }
+
+  .sidebar-contents {
+    margin: 0 auto;
+  }
+
+  .instagram-box {
+    width: 180px;
+    height: 180px;
+  }
+
+  .categories-text {
+    padding-top: 5px;
+  }
+
+  .categories-text:first-child {
+    padding-top: 0;
+  }
+}
