@@ -1,0 +1,42 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: #6f6f6f;
+}
+.main-visual {
+  height: 400px;
+  background-image: url(img/mv.jpg);
+  background-position: bottom;
+  background-size: cover;
+  margin-bottom: 50px;
+}
+
+.main-visual-text {
+  color: #6f6f6f;
+  display: inline-block;
+  margin: 20px 0 0 20px;
+}
+
+main {
+  width: 840px;
+  margin: 0 auto;
+}
+
+.blog-box {
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #6f6f6f;
+}
+
+.blog-box:last-child {
+  margin-bottom: 50px;
+}
+
+.blog-text {
+  color: #6f6f6f;
+  padding-bottom: 0.5rem;
+}
